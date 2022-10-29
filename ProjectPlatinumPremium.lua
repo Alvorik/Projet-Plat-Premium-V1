@@ -76,7 +76,7 @@ ShindoSection:NewButton("Premier X", "Autofarm etc.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
-ShindoSection:NewButton("Premier V3", "INF RC etc."m function()
+ShindoSection:NewButton("Premier V3", "INF RC etc.", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
 end)
 
