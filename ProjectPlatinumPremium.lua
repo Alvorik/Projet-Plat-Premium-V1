@@ -38,16 +38,6 @@ HubSection:NewButton("Plat Hub", "Outdated version of this", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvorik/Plat-Hub-V2/main/Plat%20Hub%20V2%20Alpha.lua", true))()
 end)
 
-local Credits = Window:NewTab("Credits")
-local CredsSection = Credits:NewSection("Credits")
-
-Credits:NewLabel("Made By Alvorik/エド2kk#0001")
-
-Credits:NewButton("Copy Discord Link", "Copy Alvorik's World's Discord Server", function()
-        setclipboard("https://discord.gg/ykHhHkK7YF")
-
-end)
-
 -- Blox Fruits
 
 local Blox = Window:NewTab("Blox Fruits")
