@@ -76,6 +76,10 @@ ShindoSection:NewButton("Premier X", "Autofarm etc.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
+ShindoSection:NewButton("Premier V3", "INF RC etc."m function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
+end)
+
 ShindoSection:NewButton("Vellerius Hub", "https://discord.gg/gzCtNbBCbs thats for the key.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
 end)
