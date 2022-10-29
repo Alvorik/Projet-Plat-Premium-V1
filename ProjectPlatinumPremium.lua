@@ -37,6 +37,16 @@ end)
 HubSection:NewButton("Plat Hub", "Outdated version of this", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvorik/Plat-Hub-V2/main/Plat%20Hub%20V2%20Alpha.lua", true))()
 end)
+
+local Credits = Window:NewTab("Credits")
+local CredsSection = Credits:NewSection("Credits")
+
+Credits:NewLabel("Made By Alvorik/エド2kk#0001")
+
+Credits:NewButton("Copy Discord Link", "Copy Alvorik's World's Discord Server", function()
+        setclipboard("https://discord.gg/ykHhHkK7YF")
+   end)
+
 -- Blox Fruits
 
 local Blox = Window:NewTab("Blox Fruits")
@@ -76,7 +86,7 @@ ShindoSection:NewButton("Premier X", "Autofarm etc.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
-ShindoSection:NewButton("Premier V3", "INF RC etc.", function()
+ShindoSection:NewButton("Premier V3", "INF RC etc."m function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier-V3/main/script.lua", true))()
 end)
 
@@ -102,7 +112,7 @@ if game.PlaceId == 7560156054 then
 	ClickerSection:NewButton("Clicker Trophies", "I to this day dont know what this is.", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Noahtaker/scripts/main/clickersimtrophies.lua", true))()
 	end)
-	
+
 	ClickerSection:NewButton("Extreme Hub", "OP SCRIPT", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
 	end)
