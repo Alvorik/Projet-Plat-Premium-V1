@@ -106,6 +106,10 @@ if game.PlaceId == 7560156054 then
 	ClickerSection:NewButton("Extreme Hub", "OP SCRIPT", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
 	end)
+	
+	ClickerSection:NewButton("Op Halloween Script", "OP FOR HALLOWEEN", function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0ScChnHZ"))()
+	end)
 
 elseif game.PlaceId == 3956818381 then
 	local Ninja = Window:NewTab("Ninja Legends")
