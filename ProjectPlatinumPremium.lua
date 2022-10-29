@@ -45,7 +45,8 @@ Credits:NewLabel("Made By Alvorik/エド2kk#0001")
 
 Credits:NewButton("Copy Discord Link", "Copy Alvorik's World's Discord Server", function()
         setclipboard("https://discord.gg/ykHhHkK7YF")
-   end)
+
+end)
 
 -- Blox Fruits
 
