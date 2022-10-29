@@ -102,6 +102,10 @@ if game.PlaceId == 7560156054 then
 	ClickerSection:NewButton("Clicker Trophies", "I to this day dont know what this is.", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Noahtaker/scripts/main/clickersimtrophies.lua", true))()
 	end)
+	
+	ClickerSection:NewButton("Extreme Hub", "OP SCRIPT", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+	end)
 
 elseif game.PlaceId == 3956818381 then
 	local Ninja = Window:NewTab("Ninja Legends")
